@@ -7,7 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.4] - 2023-11-22
+
 - hardening remove dangerous commands from busybox
+- add OTA start message counter
 - add message handler for over the air updates
 - add unit tests for ota messages
 - add unit test for int64 data type
