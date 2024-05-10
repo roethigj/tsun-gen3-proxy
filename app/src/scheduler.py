@@ -22,7 +22,7 @@ class Schedule:
         crontab('0 0 * * *', func=cls.atmidnight, start=True)
 
         # every minute
-        crontab('* * * * *', func=cls.regular_modbus_cmds, start=True)
+        crontab('*/10 * * * * *', func=cls.regular_modbus_cmds, start=True)
 
     @classmethod
     async def atmidnight(cls) -> None:
